@@ -17,6 +17,9 @@ import app_elements as elements
 from config import *
 
 
+server = app.server
+
+
 app.layout = html.Div([
     html.Div([
         elements.selected_file_table
